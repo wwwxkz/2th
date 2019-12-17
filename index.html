@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+	<title>2TH Consultoria em TI</title>
+</head>
+<body>
+
+
+	<div id="navbar">
+		<a id="navbar-logo" href="">2TH</a>
+		<a href="#services">Services</a>
+		<a href="">Partners</a>
+		<a href="">About</a>
+		<a href="#contact">Contact</a>
+		<div id="navbar-contact">
+			<div>
+				<img src="imgs/icons/email.png"/>
+				<a href="#contact">(11) 972475830</a>
+			</div>
+			<div>
+				<img src="imgs/icons/telefone.png"/>	
+				<a href="#contact">renato@2th.com.br</a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="header">
+		<div id="header-image">
+			<div id="header-container">
+				<div id="header-div">
+					<div>
+						<h1>2TH Professional Consulting For Your Business</h1>
+					</div>
+					<div>
+						<h4>You have problems with your IT, 2TH solves, get in touch!</h4>
+					</div>
+					<div id="header-buttons">
+						<button type="button" class="btn btn-primary btn-lg" id="button-secondary">Services</button>
+						<button type="button" class="btn btn-primary btn-lg">Get in touch</button>
+					</div>
+				</div>
+				<div id="header-div-support">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+		<div id="services">
+			<div id="service">
+				<h3>Consultoia simples</h3>
+				<h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h6>
+			</div>
+			<div id="service">
+				<h2>Consultoia simples</h2>
+				<h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h4>
+			</div>
+			<div id="service">
+				<h2>Consultoia simples</h2>
+				<h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h5>
+			</div>
+			<div id="service">
+				<h4>Consultoia simples</h4>
+				<h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h6>
+			</div>
+		</div>
+
+
+	<div id="container">
+
+		<form id="contact">
+		  <div class="form-row">
+
+		  	<div class="col">
+	    		<div class="form-group">
+			    	<label for="inputEmail4">Name</label>
+	   				<input type="text" class="form-control" placeholder="Renato Uttembergh">
+			    </div>
+			  	<div class="form-group">
+			    	<label for="inputAddress">Phone</label>
+			    	<input type="text" class="form-control"  placeholder="(11) 1234-56789">
+			  	</div>
+			  	<div class="form-group">
+			    	<label for="inputAddress2">Email</label>
+			    	<input type="email" class="form-control"  placeholder="yourmail@mail.com">
+			  	</div>
+			</div>
+
+		    <div class="form-group col-md-6">
+		      <label>Message</label>
+		      <textarea class="form-control" style="height: 210px;max-height: 210px;"></textarea>
+		    </div>
+
+
+
+		  </div>
+
+		  <button type="submit" class="btn btn-primary" id="send">Send</button>
+		</form>
+
+
+		<div id="footer">
+			<div>
+				<h2>Contact options</h2>
+				<h6>Email: renato@2th.com.br</h6>
+				<h6>Phone: (11) 972475830</h6>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>
+
+<script>
+	const images = [2,6,8]
+
+	let c = 0;
+	const switchImage = () => {
+		document.getElementById("header-image").style.backgroundImage = `url(imgs/${images[c]}.jpg)`;
+		c += 1;
+		if(c >= 3){c = 0;}
+        setTimeout(switchImage, 5000);
+	}
+
+	window.onload = switchImage();
+
+
+</script>
