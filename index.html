@@ -2,138 +2,109 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/index.css">
-	<title>2TH Consultoria em TI</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- NavBar #################### -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+  <a class="navbar-brand" id="nav-brand" href="#">
+    <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Renato
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<div id="navbar">
-		<a id="navbar-logo" href="">2TH</a>
-		<a href="#services">Services</a>
-		<a href="">Partners</a>
-		<a href="">About</a>
-		<a href="#contact">Contact</a>
-		<div id="navbar-contact">
-			<div>
-				<img src="imgs/icons/email.png"/>
-				<a href="#contact">(11) 972475830</a>
-			</div>
-			<div>
-				<img src="imgs/icons/telefone.png"/>	
-				<a href="#contact">renato@2th.com.br</a>
-			</div>
-		</div>
-	</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <form id="nav-form" class="form-inline my-2 my-lg-0">
+      <button id="nav-button" class="btn" type="submit">Orçamento</button>
+    </form>
+  </div>
+</nav>
 
+<!-- Container #################### -->
+<div id="container">
+<!-- Header #################### -->
+  <div class="col" id="header">
+    <div id="header-container">
+    <!-- Header-Text #################### -->
+      <div id="header-text-div">
+        <h2 id="header-title">You have problems with your IT, 2TH solves, get in touch!</h2><br><br>
+        <h5 id="header-subtitle">Work with the largest consulting firm in Latin America</h5>
+      </div>
 
-
-	<div id="header">
-		<div id="header-image">
-			<div id="header-container">
-				<div id="header-div">
-					<div>
-						<h1>2TH Professional Consulting For Your Business</h1>
-					</div>
-					<div>
-						<h4>You have problems with your IT, 2TH solves, get in touch!</h4>
-					</div>
-					<div id="header-buttons">
-						<button type="button" class="btn btn-primary btn-lg" id="button-secondary">Services</button>
-						<button type="button" class="btn btn-primary btn-lg">Get in touch</button>
-					</div>
-				</div>
-				<div id="header-div-support">
-				
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	
-
-		<div id="services">
-			<div id="service">
-				<h3>Consultoia simples</h3>
-				<h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h6>
-			</div>
-			<div id="service">
-				<h2>Consultoia simples</h2>
-				<h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h4>
-			</div>
-			<div id="service">
-				<h2>Consultoia simples</h2>
-				<h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h5>
-			</div>
-			<div id="service">
-				<h4>Consultoia simples</h4>
-				<h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</h6>
-			</div>
-		</div>
+ <!-- Services ################# -->
+      <div class="row">
+        <div id="service">
+          <div id="service-text">
+            <h3>Consulting</h3>
+            <h5>teadshad asdah djahsd saja djas</h5>
+          </div>
+        </div>
+        <div id="service">
+          <div id="service-text">
+            <h3>Install</h3>
+            <h5>teadshad asdah djahsd saja djas</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-	<div id="container">
+<!-- Posts ############## -->
+  <div id="posts">
+    <div id="post">
+      <div id="post-text">
+        <h3>The end of complexity</h3>
+        <h5>Para quem sabe que tecnologia e design são melhores do que agências e papelada.</h5>
+      </div>
+    </div>
+    <div id="post">
+      <div id="post-text">
+        <h3>We simplify the life of your company</h3>
+        <h5>Burocracia custa caro. Somos eficientes para você não ter que pagar tarifas.</h5>
+      </div>
+    </div>
+  </div>
 
-		<form id="contact">
-		  <div class="form-row">
+<!-- Footer #######-->
 
-		  	<div class="col">
-	    		<div class="form-group">
-			    	<label for="inputEmail4">Name</label>
-	   				<input type="text" class="form-control" placeholder="Renato Uttembergh">
-			    </div>
-			  	<div class="form-group">
-			    	<label for="inputAddress">Phone</label>
-			    	<input type="text" class="form-control"  placeholder="(11) 1234-56789">
-			  	</div>
-			  	<div class="form-group">
-			    	<label for="inputAddress2">Email</label>
-			    	<input type="email" class="form-control"  placeholder="yourmail@mail.com">
-			  	</div>
-			</div>
+  <div id="footer">
 
-		    <div class="form-group col-md-6">
-		      <label>Message</label>
-		      <textarea class="form-control" style="height: 210px;max-height: 210px;"></textarea>
-		    </div>
+  </div>
 
 
-
-		  </div>
-
-		  <button type="submit" class="btn btn-primary" id="send">Send</button>
-		</form>
-
-
-		<div id="footer">
-			<div>
-				<h2>Contact options</h2>
-				<h6>Email: renato@2th.com.br</h6>
-				<h6>Phone: (11) 972475830</h6>
-			</div>
-		</div>
-	</div>
-
-
+</div> <!-- Container -->
 
 </body>
 
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </html>
 
-<script>
-	const images = [2,6,8]
-
-	let c = 0;
-	const switchImage = () => {
-		document.getElementById("header-image").style.backgroundImage = `url(imgs/${images[c]}.jpg)`;
-		c += 1;
-		if(c >= 3){c = 0;}
-        setTimeout(switchImage, 5000);
-	}
-
-	window.onload = switchImage();
-
-
-</script>
+  <!-- <script>
+    const images = [2,6,8]
+    let c = 0;
+    const switchImage = () => {
+      document.getElementById("service").style.backgroundImage = `url(imgs/${images[c]}.jpg)`;
+      c += 1;
+      if(c >= 3){c = 0;}
+          setTimeout(switchImage, 5000);
+    }
+    window.onload = switchImage();
+  </script> -->
