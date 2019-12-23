@@ -5,6 +5,10 @@
   --text-color: #D4F1F4;
 }
 
+body {
+    background-color: #fff;
+}
+
 .navbar {
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
 	background-color: var(--second-color);
@@ -172,6 +176,10 @@
 	    color: var(--text-color);
 	}
 
+	#header {
+		height: 650px
+	}
+
 	#header-container {
 		margin-left: 0px; 
 		margin-right: 0px;
@@ -184,7 +192,14 @@
 	}
 
 	#header-title {
+		padding-top: 25px;
 		font-size: 34px;
+	}
+
+	#service {
+		flex: 2;
+	    height: 100%;
+	    transition: .2s;
 	}
 
 	#service-text {
